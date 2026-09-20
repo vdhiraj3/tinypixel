@@ -1,6 +1,6 @@
-# TinyPixel
+# Tinyplex
 
-TinyPixel is a browser-based image compressor and resizer built with Next.js. Images are processed locally using the Canvas API; there is no image upload backend.
+Tinyplex is a browser-based image compressor and resizer built with Next.js. Images are processed locally using the Canvas API; there is no image upload backend.
 
 ## Run locally
 

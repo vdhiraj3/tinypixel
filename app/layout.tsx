@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
-  title: 'TinyPixel — Compress & Resize Images Online',
+  title: 'Tinyplex — Compress & Resize Images Online',
   description: 'Free online image compressor and resizer. Process JPG, PNG and WebP images locally in your browser.',
 };
 
