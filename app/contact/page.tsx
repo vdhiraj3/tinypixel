@@ -24,7 +24,7 @@ export default function ContactPage() {
           <div className="contact-tile">
             <h2>Email</h2>
             <p>For support, privacy questions, bug reports, or general enquiries:</p>
-            <a href="mailto:support@tinyplex.app" className="legal-inline-link">support@tinyplex.app</a>
+            <a href="mailto:support@tinyplex.in" className="legal-inline-link">support@tinyplex.in</a>
           </div>
           <div className="contact-tile">
             <h2>Feedback &amp; bugs</h2>
