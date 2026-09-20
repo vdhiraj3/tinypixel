@@ -84,7 +84,7 @@ export default function TermsPage() {
 
         <section>
           <h2>12. Contact</h2>
-          <p>If you have questions about these Terms, contact us at <a href="mailto:support@tinyplex.app" className="legal-inline-link">support@tinyplex.app</a>, or visit the <Link href="/contact" className="legal-inline-link">Contact page</Link>.</p>
+          <p>If you have questions about these Terms, contact us at <a href="mailto:support@tinyplex.in" className="legal-inline-link">support@tinyplex.in</a>, or visit the <Link href="/contact" className="legal-inline-link">Contact page</Link>.</p>
         </section>
       </article>
 
