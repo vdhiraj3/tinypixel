@@ -63,7 +63,7 @@ export default function Home() {
   const saved = totalOriginal && totalResult ? Math.max(0, Math.round((1-totalResult/totalOriginal)*100)) : 0;
 
   return <main>
-    <header className="nav"><div className="brand"><span className="logo">TP</span><span>TinyPixel</span></div><div className="navlinks"><a href="#tool">Tool</a><a href="#how">How it works</a><a href="/privacy">Privacy</a></div></header>
+    <header className="nav"><div className="brand"><span className="logo brand-logo" aria-hidden="true" /><span>TinyPixel</span></div><div className="navlinks"><a href="#tool">Tool</a><a href="#how">How it works</a><a href="/privacy">Privacy</a></div></header>
     <section className="hero"><div className="badge"><Sparkles size={15}/> Free browser-based image tools</div><h1>Compress. Resize.<br/><span>Keep every pixel that matters.</span></h1><p>Optimize JPG, PNG and WebP images in seconds. Your files stay on your device.</p></section>
     <section id="tool" className="toolcard">
       <div className="tabs"><button className={mode==='both'?'active':''} onClick={()=>setMode('both')}>Compress + Resize</button><button className={mode==='compress'?'active':''} onClick={()=>setMode('compress')}>Compress</button><button className={mode==='resize'?'active':''} onClick={()=>setMode('resize')}>Resize</button></div>
