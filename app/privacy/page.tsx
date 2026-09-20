@@ -73,7 +73,7 @@ export default function PrivacyPage() {
         </div>
       </article>
 
-      <footer>© {new Date().getFullYear()} Tinyplex · <Link href="/">Home</Link> · Privacy Policy</footer>
+      <footer>© {new Date().getFullYear()} Tinyplex · <Link href="/">Home</Link> · <Link href="/terms">Terms</Link> · <Link href="/contact">Contact</Link> · Privacy</footer>
     </main>
   );
 }
