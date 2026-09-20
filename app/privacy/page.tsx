@@ -10,7 +10,7 @@ export default function PrivacyPage() {
     <main className="legal-page">
       <header className="nav legal-nav">
         <Link href="/" className="brand legal-brand" aria-label="TinyPixel home">
-          <span className="logo">TP</span><span>TinyPixel</span>
+          <span className="logo brand-logo" aria-hidden="true" /><span>TinyPixel</span>
         </Link>
         <Link href="/" className="back-link">← Back to TinyPixel</Link>
       </header>

@@ -18,3 +18,6 @@
 .legal-note strong{color:var(--text)}
 .legal-page footer{max-width:none;text-align:center;margin-top:28px;color:var(--muted);font-size:14px}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+
+/* Brand logo icon (cropped from full lockup) */
+.logo.brand-logo{background:url('/tinypixel-logo.png') no-repeat;background-color:#fff;background-size:200%;background-position:50% 30%;color:transparent;font-size:0;border-radius:9px;border:1px solid var(--line)}
