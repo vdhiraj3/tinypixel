@@ -63,7 +63,7 @@ export default function Home() {
   const saved = totalOriginal && totalResult ? Math.max(0, Math.round((1-totalResult/totalOriginal)*100)) : 0;
 
   return <main>
-    <header className="nav"><div className="brand"><span className="logo brand-logo" aria-hidden="true" /><span>TinyPixel</span></div><div className="navlinks"><a href="#tool">Tool</a><a href="#how">How it works</a><a href="/privacy">Privacy</a></div></header>
+    <header className="nav"><div className="brand"><span className="logo brand-logo" aria-hidden="true" /><span>Tinyplex</span></div><div className="navlinks"><a href="#tool">Tool</a><a href="#how">How it works</a><a href="/privacy">Privacy</a></div></header>
     <section className="hero"><div className="badge"><Sparkles size={15}/> Free browser-based image tools</div><h1>Compress. Resize.<br/><span>Keep every pixel that matters.</span></h1><p>Optimize JPG, PNG and WebP images in seconds. Your files stay on your device.</p></section>
     <section id="tool" className="toolcard">
       <div className="tabs"><button className={mode==='both'?'active':''} onClick={()=>setMode('both')}>Compress + Resize</button><button className={mode==='compress'?'active':''} onClick={()=>setMode('compress')}>Compress</button><button className={mode==='resize'?'active':''} onClick={()=>setMode('resize')}>Resize</button></div>
@@ -75,7 +75,7 @@ export default function Home() {
       </>}
     </section>
     <section id="how" className="features"><article><ShieldCheck/><h3>Private by design</h3><p>Images are processed locally in your browser. Nothing needs to be uploaded to a server.</p></article><article><Maximize2/><h3>Resize precisely</h3><p>Set width, height and aspect-ratio behavior exactly how you want it.</p></article><article><ImageIcon/><h3>JPG, PNG & WebP</h3><p>Choose a practical output format and balance quality against file size.</p></article></section>
-    <section id="privacy" className="privacy"><h2>Built for simple image optimization</h2><p>TinyPixel is designed to make everyday image compression and resizing fast without requiring an account or file upload.</p></section>
-    <footer>© {new Date().getFullYear()} TinyPixel · Free image tools · <a href="/privacy">Privacy Policy</a> · <span>Your files stay on your device</span></footer>
+    <section id="privacy" className="privacy"><h2>Built for simple image optimization</h2><p>Tinyplex is designed to make everyday image compression and resizing fast without requiring an account or file upload.</p></section>
+    <footer>© {new Date().getFullYear()} Tinyplex · Free image tools · <a href="/privacy">Privacy Policy</a> · <span>Your files stay on your device</span></footer>
   </main>;
 }
