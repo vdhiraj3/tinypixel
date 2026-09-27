@@ -23,9 +23,12 @@ export default function BackgroundRemover() {
     if (!file || busy) return;
     setBusy(true); setError(''); setStatus('Loading the background-removal AI…');
     try {
-      const mod = await import(/* webpackIgnore: true */ 'https://cdn.jsdelivr.net/npm/@imgly/background-removal@1.7.0/+esm');
-      setStatus('Removing background on your device…');
-      const blob = await mod.removeBackground(file, { output: { format: 'image/png' }, progress: (key: string, current: number, total: number) => { if (total) setStatus(`Processing… ${Math.round((current / total) * 100)}%`); } });
+     const mod = await import("@imgly/background-removal");
+      const blob = await mod.removeBackground(file, {
+  output: {
+    format: "image/png",
+  },
+});
       const url = URL.createObjectURL(blob);
       if (result) URL.revokeObjectURL(result);
       setResult(url); setStatus('Background removed. Your transparent PNG is ready.');
