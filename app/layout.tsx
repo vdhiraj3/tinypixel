@@ -1,6 +1,6 @@
-
 import './globals.css';
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
@@ -21,7 +21,23 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+
         <Analytics />
+
+        <Script
+          id="monetag-ad"
+          strategy="afterInteractive"
+        >{`
+          (function(s){
+            s.dataset.zone='11907044';
+            s.src='https://al5sm.com/tag.min.js';
+          })(
+            [document.documentElement, document.body]
+              .filter(Boolean)
+              .pop()
+              .appendChild(document.createElement('script'))
+          );
+        `}</Script>
       </body>
     </html>
   );
