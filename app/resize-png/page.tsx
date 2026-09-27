@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description: "Resize PNG images online to custom width and height while keeping control of the aspect ratio.",
 };
 
+
 export default function Page() {
   return <main>
     <header className="nav"><a href="/" className="brand"><span className="logo brand-logo" aria-hidden="true"/><span>Tinyplex</span></a><div className="navlinks"><a href="/background-remover">Background Remover</a><a href="/">Home</a><a href="/privacy">Privacy</a></div></header>
