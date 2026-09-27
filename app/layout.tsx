@@ -9,6 +9,8 @@ export const metadata: Metadata = {
     'Free online image compressor and resizer. Process JPG, PNG and WebP images locally in your browser.',
   other: {
     monetag: 'c4622e6e380be6124876e206f4c694bc',
+    'google-site-verification':
+      'IUnTbU7-IZln9E50cLjE3NfsVXarSoj98e47qRQ9hmY',
   },
 };
 
