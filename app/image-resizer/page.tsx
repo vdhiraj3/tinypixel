@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import ImageOptimizer from '@/components/ImageOptimizer';
+import ToolPageLayout from '@/components/ToolPageLayout';
 
 export const metadata: Metadata = {
   title: "Free Image Resizer Online",
