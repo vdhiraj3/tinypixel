@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import ImageOptimizer from '@/components/ImageOptimizer';
+import ToolPageLayout from '@/components/ToolPageLayout';
+
 
 export const metadata: Metadata = {
   title: "Reduce Image Size Online – Free Image Compressor",
