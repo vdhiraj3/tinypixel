@@ -79,3 +79,73 @@ export default function Home() {
     <footer>© {new Date().getFullYear()} Tinyplex · Free image tools · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/contact">Contact</a> · <span>Your files stay on your device</span></footer>
   </main>;
 }
+<section className="py-16">
+  <div className="mx-auto max-w-6xl px-4">
+
+    <div className="text-center mb-10">
+      <h2 className="text-3xl font-bold">
+        Quick Image Tools
+      </h2>
+
+      <p className="mt-3 text-gray-500">
+        Free tools to compress, resize and optimize your images.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+      <a href="/image-compressor" className="tool-card">
+        Image Compressor
+      </a>
+
+      <a href="/image-resizer" className="tool-card">
+        Image Resizer
+      </a>
+
+      <a href="/background-remover" className="tool-card">
+        Background Remover
+      </a>
+
+      <a href="/compress-jpg" className="tool-card">
+        Compress JPG
+      </a>
+
+      <a href="/compress-png" className="tool-card">
+        Compress PNG
+      </a>
+
+      <a href="/compress-webp" className="tool-card">
+        Compress WebP
+      </a>
+
+      <a href="/resize-image" className="tool-card">
+        Resize Image
+      </a>
+
+      <a href="/resize-jpg" className="tool-card">
+        Resize JPG
+      </a>
+
+      <a href="/resize-png" className="tool-card">
+        Resize PNG
+      </a>
+
+      <a href="/reduce-image-size" className="tool-card">
+        Reduce Image Size
+      </a>
+
+      <a href="/compress-image-to-100kb" className="tool-card">
+        Compress to 100KB
+      </a>
+
+      <a href="/compress-image-to-200kb" className="tool-card">
+        Compress to 200KB
+      </a>
+
+      <a href="/compress-image-to-500kb" className="tool-card">
+        Compress to 500KB
+      </a>
+
+    </div>
+  </div>
+</section>
